@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Search, Plus, Edit2, Trash2, Package, TrendingUp, AlertCircle, MessageSquare, Send, Sparkles, Mic, MicOff, Volume2, X, BarChart3 } from 'lucide-react';
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 export default function SmartInventory() {
   const [items, setItems] = useState([]);               // start empty â€“ loaded from DB
