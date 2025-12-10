@@ -162,7 +162,7 @@ GitHub (Version Control)
 
 ⚙️ Installation & Setup
 Clone Repo
-git clone https://github.com/YOUR_USERNAME/SmartInventoryAI.git
+git clone https://github.com/Omii2510/SmartInventory
 cd SmartInventoryAI
 
 Backend Setup
